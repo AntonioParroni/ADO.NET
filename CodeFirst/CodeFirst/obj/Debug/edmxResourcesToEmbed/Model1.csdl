@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="UserSet" EntityType="Model1.User" />
+    <EntitySet Name="UserDatabaseSet" EntityType="Model1.UserDatabase" />
+    <AssociationSet Name="UserDatabaseUser" Association="Model1.UserDatabaseUser">
+      <End Role="UserDatabase" EntitySet="UserDatabaseSet" />
+      <End Role="User" EntitySet="UserSet" />
+    </AssociationSet>
+    <FunctionImport Name="sp_MScleanupmergepublisher" />
+    <FunctionImport Name="sp_MSrepl_startup" />
+  </EntityContainer>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="UserDatabase" Relationship="Model1.UserDatabaseUser" FromRole="User" ToRole="UserDatabase" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Login" Type="String" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserDatabase">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="User" Relationship="Model1.UserDatabaseUser" FromRole="UserDatabase" ToRole="User" />
+  </EntityType>
+  <Association Name="UserDatabaseUser">
+    <End Type="Model1.UserDatabase" Role="UserDatabase" Multiplicity="1" />
+    <End Type="Model1.User" Role="User" Multiplicity="1" />
+  </Association>
+</Schema>
