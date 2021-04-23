@@ -1,0 +1,15 @@
+C:\Users\Ray\source\repos\TaskManagerCodeFirst\TaskManagerCodeFirst\bin\Debug\TaskManagerCodeFirst.exe.config
+C:\Users\Ray\source\repos\TaskManagerCodeFirst\TaskManagerCodeFirst\bin\Debug\TaskManagerCodeFirst.exe
+C:\Users\Ray\source\repos\TaskManagerCodeFirst\TaskManagerCodeFirst\bin\Debug\TaskManagerCodeFirst.pdb
+C:\Users\Ray\source\repos\TaskManagerCodeFirst\TaskManagerCodeFirst\bin\Debug\EntityFramework.dll
+C:\Users\Ray\source\repos\TaskManagerCodeFirst\TaskManagerCodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ray\source\repos\TaskManagerCodeFirst\TaskManagerCodeFirst\bin\Debug\EntityFramework.xml
+C:\Users\Ray\source\repos\TaskManagerCodeFirst\TaskManagerCodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ray\source\repos\TaskManagerCodeFirst\TaskManagerCodeFirst\obj\Debug\TaskManagerCodeFirst.csprojAssemblyReference.cache
+C:\Users\Ray\source\repos\TaskManagerCodeFirst\TaskManagerCodeFirst\obj\Debug\TaskManagerCodeFirst.Form1.resources
+C:\Users\Ray\source\repos\TaskManagerCodeFirst\TaskManagerCodeFirst\obj\Debug\TaskManagerCodeFirst.Properties.Resources.resources
+C:\Users\Ray\source\repos\TaskManagerCodeFirst\TaskManagerCodeFirst\obj\Debug\TaskManagerCodeFirst.csproj.GenerateResource.cache
+C:\Users\Ray\source\repos\TaskManagerCodeFirst\TaskManagerCodeFirst\obj\Debug\TaskManagerCodeFirst.csproj.CoreCompileInputs.cache
+C:\Users\Ray\source\repos\TaskManagerCodeFirst\TaskManagerCodeFirst\obj\Debug\TaskManagerCodeFirst.csproj.CopyComplete
+C:\Users\Ray\source\repos\TaskManagerCodeFirst\TaskManagerCodeFirst\obj\Debug\TaskManagerCodeFirst.exe
+C:\Users\Ray\source\repos\TaskManagerCodeFirst\TaskManagerCodeFirst\obj\Debug\TaskManagerCodeFirst.pdb
